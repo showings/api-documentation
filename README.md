@@ -105,7 +105,7 @@ Authentication is performed by posting to the CSS oauth2 service which will retu
 	{
 		"access_token": "fAwTwHZM4cOS4rnoD1maTaUu0P6xk0i9dA",
 		"expires_in": 3600,
-		"token_type": "Bearer"
+		"token_type": "Bearer",
 		"refresh_token": "62e7db79d6620777df46025e6345dc65"
 	}
 	```
