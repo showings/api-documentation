@@ -149,7 +149,7 @@ If a valid token that hasn’t expired has been provided, a 200 response will be
 
 The following link will provide a list of all operations that are supported by the API which can be useful during development.
 
-https://api2.showings.com/docs/sandbox/index
+[https://api2.showings.com/docs/sandbox/index](https://api2.showings.com/docs/sandbox/index)
 
 Note: All operations that have the parameter "Authorization" listed, require authentication, this authorization token does not necessarily grant you access to all operations with an authorization parameters.    If an "unauthorized" response received, then access to this operation is not permitted.  If you believe this is an error, please contact CSS.
 
