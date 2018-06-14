@@ -1,5 +1,3 @@
-# CSS API Documentation
-
 ## Overview
 
 CSS is striving to to make exchanging data effortless for all, for this reason the CSS API for third parties has been developed.  This API will allow for approved external vendors and MLSs to access needed CSS scheduling and listing availability data.  The intended use of this API is to allow MLS technology companies to offer scheduling services directly from their product.
