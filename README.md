@@ -26,7 +26,7 @@ The following table lists all the base urls when communicating with CSS endpoint
 CSS APIs use the OAuth 2.0 protocol for authentication and authorization. CSS supports the OAuth 2.0 authorization code and client credential flows which are appropriate for use on web server applications.
 
 ## Authentication:  
-Many API functions require authentication before they can be accessed. Authentication varies based on the API endpoints being used. Some endpoints such as scheduling a showing can only be performed on behalf of an existing CSS user. Other endpoints such as determining if a listing is managed by CSS can be called by an application.  
+Many API functions require authentication before they can be accessed. Authentication varies based on the API endpoints being used. Some endpoints such as scheduling a showing can only be performed on behalf of an existing CSS user and require a User Token. Other endpoints such as determining if a listing is managed by CSS can be called by an application and require an Application Token. When viewing the API discovery page endpoints are grouped into sections indicating what type of authentication is required (Agent, Seller, Application, etc). 
 
 To request access to the CSS API you must submit the request form found at https://goo.gl/forms/DEvUycSUJUHagN2v1
 
