@@ -75,6 +75,8 @@ Authentication is performed by posting to the CSS oauth2 service which will retu
 	| response_type | code                    | Indicates authorization code flow usage         |
 	| redirect_uri  | [client provided]       | Where to redirect the user after authentication |
 
+	> Tip: It is recommended to include the `offline_access` scope so that you receive a refresh token that you can use to obtain new access tokens without having to ask the user again.
+
 	If the user successfully authenticates and grants your app access an authorization code will be sent as a query string parameter to the redirect_uri specified in the request.
 
 	Sample Redirect
