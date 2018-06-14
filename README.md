@@ -1,5 +1,3 @@
-## Overview
-
 CSS is striving to to make exchanging data effortless for all, for this reason the CSS API for third parties has been developed.  This API will allow for approved external vendors and MLSs to access needed CSS scheduling and listing availability data.  The intended use of this API is to allow MLS technology companies to offer scheduling services directly from their product.
 
 This service will use a JSON Web token for securely accessing the CSS API Service.  A JSON web token(s) will be created to authenticate that the requesting service is first, a legitimate request and second, allow for a secure transmission of data between parties.   Using these processes the external vendor can access, form and display the data as necessary from CSS.
