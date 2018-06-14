@@ -17,12 +17,10 @@ Please note that you must use the secure HTTPS protocol as opposed to the non-su
 
 The following table lists all the base urls when communicating with CSS endpoints. This documentation will reference the production endpoints, but you can swap out the test versions during development.
 
-| Endpoint                       | Description             | Environment |
-|--------------------------------|-------------------------|-------------|
-| https://api2.showings.com      | Main api                | Production  |
-| https://auth.showings.com      | Authentication endpoint | Production  |
-| https://api2-beta.showings.com | Main api                | Test        |
-| https://auth.dev.showings.com  | Authentication endpoint | Test        |
+| Description             | Production Endpoint       | Test Endpoint                  |
+|-------------------------|---------------------------|--------------------------------|
+| Main api                | https://api2.showings.com | https://api2-beta.showings.com |
+| Authentication endpoint | https://auth.showings.com | https://auth.dev.showings.com  |
 
 
 CSS APIs use the OAuth 2.0 protocol for authentication and authorization. CSS supports the OAuth 2.0 authorization code and client credential flows which are appropriate for use on web server applications.
