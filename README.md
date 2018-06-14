@@ -159,11 +159,11 @@ Note: All operations that have the parameter "Authorization" listed, require aut
 
 Many endpoints require a specific scope to be included in the token. To determine what scope is required you can click the exclamation mark in the Swagger documentation.
 
-![Screenshot](/help1.png?raw=true)
+![Screenshot](help1.png)
 
 This endpoint requires either the mls or scheduling scope.
 
 ## CSS Listing Determination
 
 If utilizing the determination service during a search and it is desired that an indicator be placed next to the listing services by CSS as part of the displayed search result, below is that symbol.   This link can be made available to to CSS members and non-members.  
-![CSS Icon](/cssicon.png?raw=true)
+![CSS Icon](cssicon.png)
