@@ -70,13 +70,16 @@ Authentication is performed by posting to the CSS oauth2 service which will retu
 	| scope         | [determined by app use] | A list of scopes separated by spaces            |
 	| response_type | code                    | Indicates authorization code flow usage         |
 	| redirect_uri  | [client provided]       | Where to redirect the user after authentication |
+	| state         | [client provided]       | Recommended: echoed back on the token response, this is for correlating request and response |
 
 	> Tip: It is recommended to include the `offline_access` scope so that you receive a refresh token that you can use to obtain new access tokens without having to ask the user again.
 
+	If the user chooses to not allow your application access to their user token your redirect url will get a query string parameter of `?error=access_denied&state=abc`
+	
 	If the user successfully authenticates and grants your app access an authorization code will be sent as a query string parameter to the redirect_uri specified in the request.
 
 	Sample Redirect
-	https://www.showings.com/?code=2c5e9688283a3b51ab1e5390cdde298e
+	https://www.showings.com/?code=2c5e9688283a3b51ab1e5390cdde298e&state=abc
 
 	This authorization code can then be exchanged for an access_token that can be used with the api. To exchange the code for a token you must perform the following request.
 
