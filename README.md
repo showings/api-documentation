@@ -16,7 +16,7 @@ The following table lists all the base urls when communicating with CSS endpoint
 | Description             | Production Endpoint       | Test Endpoint                  |
 |-------------------------|---------------------------|--------------------------------|
 | Main api                | https://api2.showings.com | https://api2-beta.showings.com |
-| Authentication endpoint | https://auth.showings.com | https://auth.dev.showings.com  |
+| Authentication endpoint | https://auth.showings.com | https://auth-beta.showings.com  |
 
 
 CSS APIs use the OAuth 2.0 protocol for authentication and authorization. CSS supports the OAuth 2.0 authorization code and client credential flows which are appropriate for use on web server applications.
